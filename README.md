@@ -13,32 +13,32 @@ The program loads a map from a `.ber` file and renders it using MiniLibX. The pl
 
 Key elements of the map:
 
-* `1` → Wall
-* `0` → Empty space
-* `P` → Player start position
-* `C` → Collectible
-* `E` → Exit
+* `1` → Wall  
+* `0` → Empty space  
+* `P` → Player start position  
+* `C` → Collectible  
+* `E` → Exit  
 
 ---
 
 ## 🔑 Key Concepts
 
-* **Map Parsing & Validation**: Ensure the map is rectangular, surrounded by walls, and contains required elements (player, collectibles, exit).
-* **Graphics & Rendering**: Draw each tile using MiniLibX images.
-* **Player Movement**: Update the map and redraw the game in response to keyboard input.
-* **Game Logic**: Track moves, collected items, and win/lose conditions.
-* **Memory Management**: Allocate and free memory correctly to avoid leaks.
+* **Map Parsing & Validation**: Ensure the map is rectangular, surrounded by walls, and contains required elements (player, collectibles, exit).  
+* **Graphics & Rendering**: Draw each tile using MiniLibX images.  
+* **Player Movement**: Update the map and redraw the game in response to keyboard input.  
+* **Game Logic**: Track moves, collected items, and win/lose conditions.  
+* **Memory Management**: Allocate and free memory correctly to avoid leaks.  
 
 ---
 
 ## ⚙️ Requirements
 
-* Must read a map from a `.ber` file.
-* Must render the map correctly using MiniLibX.
-* Must allow player movement with keyboard input.
-* Must track collected items and moves.
-* Must end the game when the player reaches the exit after collecting all items.
-* Must handle invalid maps gracefully.
+* Must read a map from a `.ber` file.  
+* Must render the map correctly using MiniLibX.  
+* Must allow player movement with keyboard input.  
+* Must track collected items and moves.  
+* Must end the game when the player reaches the exit after collecting all items.  
+* Must handle invalid maps gracefully.  
 
 ---
 
@@ -65,9 +65,10 @@ The game will display the map, and the player can move using arrow keys or `WASD
 
 ✔️ Project completed and validated at 42.
 
-```
+---
 
-You can copy this into a file named `README.md` and it’s ready for GitHub.  
+## 📚 Further Resources
 
-If you want, I can also make a **shorter, compact version** suitable for the GitHub repo description. Do you want me to do that?
-```
+* [MiniLibX Library Explained (Medium Article)] https://medium.com/@devabdilah/minilibx-mlx-ff9ad1c52521
+
+---
